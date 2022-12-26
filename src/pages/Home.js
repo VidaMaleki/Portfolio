@@ -7,9 +7,7 @@ function Home() {
   return (
     <>
       <div className="home">
-        <div className='hero-container'>
-        <h1>All in One Calculator</h1>
-        </div>
+        <h1>Vida Ghorbannezhad Maleki</h1>
       </div>
       <footer>
         <Footer/>

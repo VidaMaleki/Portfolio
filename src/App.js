@@ -3,9 +3,8 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import Calculator from "./pages/Calculator/Calculator";
-import CurrencyConverter from "./pages/CurrencyConverter/CurrencyConverter";
-import LoanCalculator from "./pages/LoanCalculator/LoanCalculator";
+import About from "./pages/About/About";
+import Experience from "./pages/Experience/Experience";
 
 
 function App() {
@@ -15,9 +14,8 @@ function App() {
             <Navbar />
             <Routes>
               <Route path="/" exact element={<Home />} />
-              <Route path="/calculator" element={<Calculator/>} />
-              <Route path="/currencyconverter" element={<CurrencyConverter/>} />
-              <Route path="/loancalculator" element={<LoanCalculator/>} />
+              <Route path="/about" element={<About/>} />
+              <Route path="/experience" element={<Experience/>} />
             </Routes>
           </BrowserRouter>
         </>

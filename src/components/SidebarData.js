@@ -12,21 +12,15 @@ export const SidebarData = [
     cName: "nav-text",
   },
   {
-    title: "Calculator",
-    path: "/calculator",
+    title: "About",
+    path: "/about",
     icon: <FaIcons.FaCalculator />,
     cName: "nav-text",
   },
   {
-    title: "Currency Converter",
-    path: "/currencyconverter",
+    title: "Experience",
+    path: "/experience",
     icon: <BsIcons.BsCurrencyExchange />,
     cName: "nav-text",
-  },
-  {
-    title: "Loan Calculator",
-    path: "/loancalculator",
-    icon: <FaIcons.FaClipboardList />,
-    cName: "nav-text",
-  },
+  }
 ];
