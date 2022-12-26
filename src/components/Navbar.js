@@ -1,52 +1,78 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 //using * for importing multiple icons
-import * as FaIcons from "react-icons/fa";
-import * as AiIcons from "react-icons/ai";
 import { Link } from "react-router-dom";
-import { SidebarData } from "./SidebarData";
 import "./Navbar.css";
-import { IconContext } from "react-icons";
+import {Button} from './Button';
 
 
 
 function Navbar() {
-    const [sidebar, setSidebar] = useState(false);
-     // (false = not showing) (True = showing menu)
+    const [click, setClick] = useState(false);
+    const [button, setButton] = useState(true);
 
-    const showSidebar = () => setSidebar(!sidebar);
+    const handleClick = () => setClick(!click);
+    const closeMobileMenu = () => setClick(false);
 
+    const showButton = () => {
+        if (window.innerWidth <= 960) {
+        setButton(false);
+        } else {
+        setButton(true);
+        }
+    };
+
+    useEffect(() => {
+        showButton();
+    }, []);
+
+    window.addEventListener('resize', showButton);
     return (
         <>
-        <IconContext.Provider value={{ color: "#fff" }}>
-            <div className="navbar">
-            <Link to="#" className="menu-bars">
-                <FaIcons.FaBars onClick={showSidebar} />
-            </Link>
-            </div>
-            <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
-            <ul className="nav-menu-items" onClick={showSidebar}>
-                <li className="navbar-toggle">
-                <Link to="#" className="menu-bars">
-                    <AiIcons.AiOutlineClose />
-                </Link>
-                </li>
-                {SidebarData.map((item, index) => {
-                return (
-                    <li key={index} className={item.cName}>
-                    <Link to={item.path}>
-                        {item.icon}
-                        <span>{item.title}</span>
-                    </Link>
-                    </li>
-                );
-                })}
-            </ul>
-            </nav>
-        </IconContext.Provider>
+        <nav className='navbar'>
+        <div className='navbar-container'>
+          <div className='menu-icon' onClick={handleClick}>
+            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+          </div>
+          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+            <li className='nav-item'>
+              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                Home
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/services'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                About
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/products'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Experience
+              </Link>
+            </li>
+
+            <li>
+              <Link
+                to='/sign-up'
+                className='nav-links-mobile'
+                onClick={closeMobileMenu}
+              >
+                Resume
+              </Link>
+            </li>
+          </ul>
+          {button && <Button buttonStyle='btn--outline'>RESUME</Button>}
+        </div>
+      </nav>
         </>
     );
 }
 
 export default Navbar;
-// Link => 
-// Routes =>
