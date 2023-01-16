@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About/About";
 import Experience from "./pages/Experience/Experience";
+import Projects from "./pages/Projects/Projects";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
             <Routes>
               <Route path="/" exact element={<Home />} />
               <Route path="/about" element={<About/>} />
+              <Route path="/projects" element={<Projects/>} />
               <Route path="/experience" element={<Experience/>} />
             </Routes>
           </BrowserRouter>

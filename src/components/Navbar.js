@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-//using * for importing multiple icons
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import {Button} from './Button';
@@ -41,7 +40,7 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/services'
+                to='/about'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -50,22 +49,29 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/products'
+                to='/projects'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Projects
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/experience'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
                 Experience
               </Link>
             </li>
-
             <li>
-              <Link
-                to='/sign-up'
+              <a
+                to='/resume'
                 className='nav-links-mobile'
-                onClick={closeMobileMenu}
-              >
+                href="/resume/Vida-Resume.pdf" target="_blank">
                 Resume
-              </Link>
+              </a>
             </li>
           </ul>
           {button && <Button buttonStyle='btn--outline'>RESUME</Button>}

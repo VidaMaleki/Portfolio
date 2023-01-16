@@ -3,6 +3,8 @@
     "version": "0.1.0",
     "private": true,
     "dependencies": {
+        "@fluentui/web-components": "^2.5.11",
+        "@microsoft/fast-components": "^2.30.6",
         "@react-native-picker/picker": "^2.4.4",
         "@testing-library/jest-dom": "^5.14.1",
         "@testing-library/react": "^13.0.0",
@@ -15,7 +17,7 @@
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "react-dropdown": "^1.10.0",
-        "react-icons": "^4.4.0",
+        "react-icons": "^4.7.1",
         "react-native": "^0.69.4",
         "react-native-cli": "^2.0.1",
         "react-native-pager-view": "^5.4.25",

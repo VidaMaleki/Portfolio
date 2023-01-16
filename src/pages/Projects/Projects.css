@@ -1,0 +1,55 @@
+.projects-container {
+    display: flex;
+    flex-direction: row;
+    background-image: url('../../image/VidaProject.jpg');
+}
+
+.project-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    color: rgb(228, 169, 17);
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 56px;
+    margin-top: 300px;
+    margin-left: 40px;
+}
+
+.projects-wrapper {
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 30px;
+}
+
+.first-card {
+    background-color: #2e2d2d;
+    height: 300px;
+    width: 300px;
+}
+
+.first-card-img {
+    height: 150px;
+    width: 300px;
+}
+
+.ex-first-card {
+    padding: 10px 10px 10px;
+}
+
+.ex-first-card>h2 {
+    color: rgb(228, 169, 17);
+}
+
+.ex-first-card>p {
+    color: white;
+}
+
+.list-1 {
+    margin-left: 15px;
+}

@@ -1,13 +1,74 @@
 import React from "react";
 import "./Experience.css";
+import { 
+  allComponents, 
+  provideFASTDesignSystem 
+} from "@microsoft/fast-components";
+import {provideFluentDesignSystem , fluentCard} from '@fluentui/web-components';
+
+
+provideFASTDesignSystem().register(allComponents);
+provideFluentDesignSystem().register(fluentCard);
+
+
 
 function Experience() {
   
-
-
   return (
     <div className="experience-container">
-      
+      <div class="work-experience">
+        <h2 class="work-experience-header">Work Experience</h2>
+        <div class="experience-box">
+          <div class="experience-box-header"><h3>Microsoft</h3><h4>08/2022 - 01/2023</h4></div>
+          <h4>Software Engineer</h4>
+          <ul class="experience-box-list">
+            <li>Sole developer of the Office in Sidebar project that reached 172k DAU.</li>
+            <li>Experienced at creating reusable webcomponents</li>
+            <li>Technologies: Webpack, Fast and Fluent UI elements, TypeScript, CSS, HTML, Figma, and C++</li>
+          </ul>
+        </div>
+        <div class="experience-box">
+          <div class="experience-box-header"><h3>Ada Developer Academy</h3><h4>03/2022 - 01/2023</h4></div>
+          <h4>Software Engineer</h4>
+          <ul class="experience-box-list">
+            <li>Worked on multiple projects using JavaScript, CSS, HTML, React, Python, Flask, SQL</li>
+            <li>Technologies: JavaScript, CSS, HTML, React, Python, Flask, SQL , REST API</li>
+            <li>FrameWorks: Flask and React</li>
+          </ul>
+        </div>
+        <div class="experience-box">
+          <div class="experience-box-header"><h3>Umpqua Bank</h3><h4>01/2020 - 12/2020</h4></div>
+          <h4>Universal Associate</h4>
+          <ul class="experience-box-list">
+            <li>Good ability to recommend solutions to improve financial wellness success</li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+        <div class="experience-box">
+          <div class="experience-box-header"><h3>KeyBank</h3><h4>09/2018 - 12/2019</h4></div>
+          <h4>Lead Teller</h4>
+          <ul class="experience-box-list">
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+          <h4>Teller</h4>
+          <ul class="experience-box-list">
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+        <div class="experience-box"><h3>Zarrin Naghsh</h3></div>
+      </div>
+      <div class="education">
+        <h2 class="work-experience-header">Education</h2>
+        <div></div>
+        <div></div>
+        <h2 class="work-experience-header">Skils</h2>
+        <div></div>
+      </div>
     </div>
   );
 }
