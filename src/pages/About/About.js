@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
-
+import * as FaIcons from "react-icons/fa";
+import * as SiIcons from "react-icons/si";
 
 
 const About = () => {
@@ -8,21 +9,32 @@ const About = () => {
   return (
     <div className="about">
       <div class="pic-wrapper">
-        <h2 class="pic-header">About me</h2>
         <div tab-index="0" class="pic-container"></div>
       </div>
-      <div class="about-content">
-        <div class="social-media">
-          <h2>My Personal life<menu type="toolbar"></menu></h2>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque provident consequatur nemo fugit neque? Numquam, odit molestiae facilis nisi soluta perferendis fugit quo eos ab ipsam maiores sapiente quod, corporis alias porro distinctio. Temporibus, numquam? Pariatur, ut? Tenetur nihil nemo nisi veritatis alias ex, aperiam possimus error architecto, fugit corrupti optio! Illum sed saepe, ea beatae ad amet quam tempora vel placeat non molestiae ut voluptas et quae deserunt tempore ex error fugiat quos possimus reiciendis nesciunt labore ipsam quaerat. Rerum ipsa sapiente, omnis aliquam deserunt dicta esse minus iusto officia distinctio, inventore in perspiciatis. Et similique fugiat quaerat praesentium.</p>
+      <div class="education">
+        <h2 class="work-experience-header">Education</h2>
+        <div class="experience-box">
+          <div class="experience-box-header"><h3>Ada Developer Academy ( Boot camp )</h3><h4>03/2022 - 01/2023</h4></div>
+          <h4>Software Engineer</h4>
         </div>
-        <div class="social-media">
-          <h2>My work life<menu type="toolbar"></menu></h2>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque provident consequatur nemo fugit neque? Numquam, odit molestiae facilis nisi soluta perferendis fugit quo eos ab ipsam maiores sapiente quod, corporis alias porro distinctio. Temporibus, numquam? Pariatur, ut? Tenetur nihil nemo nisi veritatis alias ex, aperiam possimus error architecto, fugit corrupti optio! Illum sed saepe, ea beatae ad amet quam tempora vel placeat non molestiae ut voluptas et quae deserunt tempore ex error fugiat quos possimus reiciendis nesciunt labore ipsam quaerat. Rerum ipsa sapiente, omnis aliquam deserunt dicta esse minus iusto officia distinctio, inventore in perspiciatis. Et similique fugiat quaerat praesentium.</p>
+        <div class="experience-box">
+          <div class="experience-box-header"><h3>Islamic Azad University of Tabriz</h3><h4>09/2009 - 04/2014</h4></div>
+          <h4>Bachelor's degree, Accounting</h4>
         </div>
-        <div class="social-media">
-          <h2>My work life<menu type="toolbar"></menu></h2>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque provident consequatur nemo fugit neque? Numquam, odit molestiae facilis nisi soluta perferendis fugit quo eos ab ipsam maiores sapiente quod, corporis alias porro distinctio. Temporibus, numquam? Pariatur, ut? Tenetur nihil nemo nisi veritatis alias ex, aperiam possimus error architecto, fugit corrupti optio! Illum sed saepe, ea beatae ad amet quam tempora vel placeat non molestiae ut voluptas et quae deserunt tempore ex error fugiat quos possimus reiciendis nesciunt labore ipsam quaerat. Rerum ipsa sapiente, omnis aliquam deserunt dicta esse minus iusto officia distinctio, inventore in perspiciatis. Et similique fugiat quaerat praesentium.</p></div>
+        <h2 class="work-experience-header">Licenses & certifications</h2>
+
+        <div class="experience-box">
+          <div class="experience-box-header"><div class="experience-box-header-title"><FaIcons.FaPython/><h3>Python 3 Certificate</h3></div><h4>Issued 06/2021</h4></div>
+          <h4>Codecademy</h4>
+        </div>
+        <div class="experience-box">
+          <div class="experience-box-header"><div class="experience-box-header-title"><SiIcons.SiJavascript/><h3>JavaScript Certificate</h3></div><h4>Issued 09/2021</h4></div>
+          <h4>Codeacademy</h4>
+        </div>
+        <h2 class="work-experience-header">Skils</h2>
+        <div class="skills"><FaIcons.FaPython/><SiIcons.SiJavascript/><SiIcons.SiTypescript/><FaIcons.FaHtml5/><SiIcons.SiCss3/><FaIcons.FaGit/><FaIcons.FaReact/>
+        <SiIcons.SiFlask/><SiIcons.SiWebpack/>
+        </div>
       </div>
     </div>
   );

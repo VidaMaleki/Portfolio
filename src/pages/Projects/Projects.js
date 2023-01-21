@@ -11,8 +11,6 @@ function Projects() {
   
   return (
     <div className="projects-container">
-      <div class="project-header">
-        <h2>PROJECTS</h2></div>
       <div class="projects-wrapper">
       <fast-card class="first-card" >
         <img class="first-card-img" alt="" src="https://play-lh.googleusercontent.com/m_VdEQPNBg0prla-_Grnmbu0acIOJ-4K_Iv2oAy_R5hyWg5QK3txmKmDqRjAnCtHXw" />
