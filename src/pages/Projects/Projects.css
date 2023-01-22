@@ -1,13 +1,14 @@
 .projects-container {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-image: url('../../image/home1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     padding: 30px;
     max-width: 100%;
-    min-height: 92vh;
+    min-height: 96vh;
 }
 
 .projects-wrapper {
@@ -17,19 +18,23 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    row-gap: 20px;
-    column-gap: 30px;
+    row-gap: 50px;
+    column-gap: 10%;
 }
 
 .first-card {
+    display: flex;
+    flex-direction: column;
     background-color: #2e2d2d;
     height: 320px;
-    width: 300px;
+    min-width: 300px;
+    max-width: 400px;
 }
 
 .first-card-img {
     height: 150px;
-    width: 300px;
+    min-width: 300px;
+    max-width: 400px;
 }
 
 .ex-first-card {
@@ -38,14 +43,18 @@
 
 .ex-first-card>h2 {
     color: rgb(228, 169, 17);
-    font-size: 24px;
+    font-size: 28px;
 }
 
 .ex-first-card>p {
     color: white;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .list-1 {
     margin-left: 15px;
+}
+
+.button-1 {
+    color: white;
 }
