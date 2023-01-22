@@ -12,7 +12,7 @@ const Education = () => {
       </div>
       <div class="education-1">
         <h2 class="work-experience-header">Education</h2>
-        <div class="experience-box">
+        <div class="education-box">
           <div class="experience-box-header"><h3>Ada Developer Academy ( Boot camp )</h3><h4>03/2022 - 01/2023</h4></div>
           <h4>Software Engineer</h4>
         </div>
