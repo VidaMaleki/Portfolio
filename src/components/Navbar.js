@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import './Button.css';
+import {Button} from './Button';
+
+
 
 function Navbar() {
     const [click, setClick] = useState(false);
@@ -11,7 +13,7 @@ function Navbar() {
     const closeMobileMenu = () => setClick(false);
 
     const showButton = () => {
-        if (window.innerWidth <= 460) {
+        if (window.innerWidth <= 960) {
         setButton(false);
         } else {
         setButton(true);
@@ -63,14 +65,19 @@ function Navbar() {
                 Experience
               </Link>
             </li>
+            <li>
+              <a
+                to='/resume'
+                className='nav-links-mobile'
+                href="/resume/Vida-Resume.pdf" target="_blank">
+                Resume
+              </a>
+            </li>
           </ul>
-          {button}
-          <div className='btn-resume'>
-          <a  href="https://www.docdroid.net/L6FKy1O/vida-resumepdf-pdf" target="blanck_">RESUME</a>
-          </div>
+          {button && <Button buttonStyle='btn--outline'>RESUME</Button>}
         </div>
       </nav>
-    </>
+        </>
     );
 }
 

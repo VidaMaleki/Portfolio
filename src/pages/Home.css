@@ -1,10 +1,12 @@
+#home-footer {
+    bottom: 0;
+}
+
 .home-container {
     /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
     height: 92vh;
     width: 100%;
-    background-image: url('../image/home11.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url('../image/VidaMaleki.jpg');
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,9 +22,7 @@
     margin-top: -100px;
 }
 
-.work-title {
-    display: inline-flex;
-    gap: 30px;
+.home-container>p {
     margin-top: 8px;
     color: rgb(231, 155, 14);
     font-size: 32px;
@@ -43,12 +43,6 @@
     font-size: 30px;
 }
 
-.home-social-icon:hover {
-    transition: all 0.3s ease-out;
-    color: #e6970e;
-    transition: 250ms;
-}
-
 .hero-btns {
     margin-top: 32px;
 }
@@ -59,13 +53,6 @@
 
 .fa-play-circle {
     margin-left: 4px;
-}
-
-#footer {
-    position: absolute;
-    bottom: 0;
-    color: white;
-    padding: 20px;
 }
 
 @media screen and (max-width: 960px) {

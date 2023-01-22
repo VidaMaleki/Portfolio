@@ -75,24 +75,6 @@
     display: none;
 }
 
-.btn-resume {
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    text-decoration: none;
-    border-radius: 30px;
-    width: 110px;
-    height: 50px;
-    border: 1px solid;
-    transition: all 0.3s ease-out;
-}
-
-a:link {
-    text-decoration: none;
-}
-
 @media screen and (max-width: 960px) {
     .NavbarItems {
         position: relative;

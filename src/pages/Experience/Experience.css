@@ -1,26 +1,25 @@
 .experience-container {
-    display: flex;
-    justify-content: center;
-    background-image: url('../../image/home1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    background-image: url('../../image/VidaProject.jpg');
     width: 100%;
+    height: 100%;
     background-color: black;
+    position: fixed;
     color: white;
     display: flex;
     flex-direction: row;
     padding: 20px;
 }
 
-.work-experience {
+.work-experience,
+.education {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     row-gap: 20px;
     padding: 10px;
-    width: 70%;
+    width: 50%;
+    height: 100%;
     margin-top: 0px;
 }
 
@@ -43,23 +42,7 @@
     justify-content: space-between;
 }
 
-.experience-box-header-title {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 10px;
-}
-
 .experience-box-list {
     margin-top: 10px;
     margin-left: 20px;
-}
-
-.skills {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding: 20px;
-    font-size: 30px;
 }
