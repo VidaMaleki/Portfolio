@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import {Button} from './Button';
-
-
+import './Button.css';
 
 function Navbar() {
     const [click, setClick] = useState(false);
@@ -13,7 +11,7 @@ function Navbar() {
     const closeMobileMenu = () => setClick(false);
 
     const showButton = () => {
-        if (window.innerWidth <= 960) {
+        if (window.innerWidth <= 460) {
         setButton(false);
         } else {
         setButton(true);
@@ -40,20 +38,20 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/about'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                About
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link
                 to='/projects'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
                 Projects
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/education'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Education
               </Link>
             </li>
             <li className='nav-item'>
@@ -65,19 +63,14 @@ function Navbar() {
                 Experience
               </Link>
             </li>
-            <li>
-              <a
-                to='/resume'
-                className='nav-links-mobile'
-                href="/resume/Vida-Resume.pdf" target="_blank">
-                Resume
-              </a>
-            </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>RESUME</Button>}
+          {button}
+          <div className='btn-resume'>
+          <a href="https://www.docdroid.net/L6FKy1O/vida-resumepdf-pdf" >RESUME</a>
+          </div>
         </div>
       </nav>
-        </>
+    </>
     );
 }
 

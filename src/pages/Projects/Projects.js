@@ -11,8 +11,6 @@ function Projects() {
   
   return (
     <div className="projects-container">
-      <div class="project-header">
-        <h2>PROJECTS</h2></div>
       <div class="projects-wrapper">
       <fast-card class="first-card" >
         <img class="first-card-img" alt="" src="https://play-lh.googleusercontent.com/m_VdEQPNBg0prla-_Grnmbu0acIOJ-4K_Iv2oAy_R5hyWg5QK3txmKmDqRjAnCtHXw" />
@@ -35,7 +33,7 @@ function Projects() {
         <div class="ex-first-card" >
             <h2>Task list board</h2>
             <p>Technologies: React, JavaScript, Fast web compenents, CSS, and HTML</p>
-            <fast-button class="button-1">Button</fast-button>
+            <fast-button class="button-1">GitHub</fast-button>
         </div>
       </fast-card>
       <fast-card class="first-card" >
@@ -43,7 +41,7 @@ function Projects() {
         <div class="ex-first-card" >
             <h2>Chat Log</h2>
             <p>Technologies: React, JavaScript, Fast web compenents, CSS, and HTML</p>
-            <fast-button class="button-1">Button</fast-button>
+            <fast-button class="button-1">GitHub</fast-button>
         </div>
       </fast-card>
       <fast-card class="first-card" >
@@ -51,7 +49,7 @@ function Projects() {
         <div class="ex-first-card" >
             <h2>Weather report</h2>
             <p>Technologies: React, JavaScript, Fast web compenents, CSS, and HTML</p>
-            <fast-button class="button-1">Button</fast-button>
+            <fast-button class="button-1">GitHub</fast-button>
         </div>
       </fast-card>
       <fast-card class="first-card" >
@@ -59,7 +57,7 @@ function Projects() {
         <div class="ex-first-card" >
             <h2>Heading</h2>
             <p>Technologies: React, JavaScript, Fast web compenents, CSS, and HTML</p>
-            <fast-button class="button-1">Button</fast-button>
+            <fast-button class="button-1">GitHub</fast-button>
         </div>
       </fast-card>
       <fast-card class="first-card" >
@@ -67,7 +65,7 @@ function Projects() {
         <div class="ex-first-card" >
             <h2>Heading</h2>
             <p>Technologies: React, JavaScript, Fast web compenents, CSS, and HTML</p>
-            <fast-button>Button</fast-button>
+            <fast-button class="button-1">GitHub</fast-button>
         </div>
       </fast-card>
       <fast-card class="first-card" >
@@ -75,7 +73,7 @@ function Projects() {
         <div class="ex-first-card" >
             <h2>Heading</h2>
             <p>Technologies: React, JavaScript, Fast web compenents, CSS, and HTML</p>
-            <fast-button>Button</fast-button>
+            <fast-button class="button-1">GitHub</fast-button>
         </div>
       </fast-card>
       </div>

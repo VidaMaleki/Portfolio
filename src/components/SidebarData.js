@@ -7,13 +7,13 @@ import * as BsIcons from "react-icons/bs";
 export const SidebarData = [
   {
     title: "Home",
-    path: "/",
+    path: "/home",
     icon: <AiIcons.AiFillHome />,
     cName: "nav-text",
   },
   {
-    title: "About",
-    path: "/about",
+    title: "Education",
+    path: "/education",
     icon: <FaIcons.FaCalculator />,
     cName: "nav-text",
   },
