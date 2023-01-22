@@ -3,6 +3,7 @@
     justify-content: center;
     background-image: url('../../image/home1.jpg');
     background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: fixed;
     width: 100%;
     background-color: black;

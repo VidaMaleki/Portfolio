@@ -1,8 +1,10 @@
 .about {
-    background-image: url('../../image/VidaProject.jpg');
-    display: felx;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-image: url('../../image/home1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     font-size: 14px;
     height: 92vh;
     color: white;
@@ -11,19 +13,19 @@
 .pic-wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    width: 40%;
+    margin-left: 10%;
+    margin-top: 10%;
     height: 92vh;
-    /* height: 95%; */
 }
 
 .pic-container {
-    background-image: url('../../image/home1.jpg');
-    width: 80%;
-    height: 80%;
+    background-image: url('../../image/Screen\ Shot\ 2022-05-20\ at\ 1.32.36\ PM.png');
+    width: 400px;
+    height: 400px;
     border-radius: 10px;
     margin-top: 30px;
+    border-radius: 200px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

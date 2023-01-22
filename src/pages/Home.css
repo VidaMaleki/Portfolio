@@ -3,6 +3,8 @@
     height: 92vh;
     width: 100%;
     background-image: url('../image/home11.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
