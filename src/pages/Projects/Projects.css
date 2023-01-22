@@ -1,7 +1,7 @@
 .projects-container {
     display: flex;
     justify-content: center;
-    background-image: url('../../image/VidaProject.jpg');
+    background-image: url('../../image/home1.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     padding: 30px;
