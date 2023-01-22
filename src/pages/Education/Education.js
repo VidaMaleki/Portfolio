@@ -8,7 +8,7 @@ const Education = () => {
   return (
     <div className="education">
       <div class="pic-wrapper">
-        <div tab-index="0" class="pic-container"></div>
+        <div class="pic-container"></div>
       </div>
       <div class="education-1">
         <h2 class="work-experience-header">Education</h2>

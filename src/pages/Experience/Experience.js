@@ -21,7 +21,8 @@ function Experience() {
       <div class="work-experience">
         <h2 class="work-experience-header">Work Experience</h2>
         <div class="experience-box">
-          <div class="experience-box-header"><div class="experience-box-header-title"><FaIcons.FaMicrosoft/><h3>Microsoft</h3></div><h4>08/2022 - 01/2023</h4></div>
+          <div class="experience-box-header">
+            <div class="experience-box-header-title"><FaIcons.FaMicrosoft/><h3>Microsoft</h3></div><h4>08/2022 - 01/2023</h4></div>
           <h4>Software Engineer</h4>
           <ul class="experience-box-list">
             <li>Sole developer of the Office in Sidebar project that reached 172k DAU.</li>
@@ -69,7 +70,6 @@ function Experience() {
             </ul>
           </div>
         </div>
-     
     </div>
   );
 }

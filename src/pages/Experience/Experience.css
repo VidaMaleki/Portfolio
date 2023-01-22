@@ -1,5 +1,6 @@
 .experience-container {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     background-image: url('../../image/home1.jpg');
     background-repeat: no-repeat;
@@ -8,8 +9,6 @@
     width: 100%;
     background-color: black;
     color: white;
-    display: flex;
-    flex-direction: row;
     padding: 20px;
 }
 
@@ -24,23 +23,35 @@
     margin-top: 0px;
 }
 
+.experience-box {
+    padding: 15px;
+    border-radius: 10px;
+    width: 95%;
+    height: 100%;
+    background-color: #2e2d2d;
+    column-gap: 30px;
+}
+
 .work-experience-header {
     color: orange;
     font-size: 56px;
     justify-content: center;
 }
 
-.experience-box {
-    padding: 15px;
-    border-radius: 10px;
-    width: 95%;
-    background-color: #2e2d2d;
-    column-gap: 30px;
+.experience-box-header-title,
+.h3 {
+    font-size: 24px;
+}
+
+.experience-box,
+.h4 {
+    font-size: 20px;
 }
 
 .experience-box-header {
     display: flex;
     justify-content: space-between;
+    font-size: 24px;
 }
 
 .experience-box-header-title {
@@ -53,4 +64,5 @@
 .experience-box-list {
     margin-top: 10px;
     margin-left: 20px;
+    font-size: 18px;
 }

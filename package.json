@@ -1,6 +1,6 @@
 {
     "homepage": "http://VidaMaleki.github.io/portfolio",
-    "name": "calculator",
+    "name": "portfolio",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
