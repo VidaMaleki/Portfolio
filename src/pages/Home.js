@@ -21,7 +21,7 @@ function Home() {
             </a>
           </div>
         </div>
-        <footer id="footer">Vida © 2022</footer>
+        <footer id="footer">Vida © 2023</footer>
       </div>
     </>
   );
