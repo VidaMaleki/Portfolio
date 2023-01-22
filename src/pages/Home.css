@@ -4,6 +4,7 @@
     background-image: url('../image/home11.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     justify-content: center;
