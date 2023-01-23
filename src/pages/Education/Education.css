@@ -1,13 +1,11 @@
 .education {
     width: 100%;
-    min-height: 96vh;
-    max-height: 200vh;
+    height: 96vh;
     justify-content: space-between;
     background-image: url('../../image/home1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-size: cover;
     display: flex;
     flex-direction: row;
     color: white;
@@ -41,23 +39,24 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    height: 96vh;
-    row-gap: 50px;
+    row-gap: 20px;
     padding: 10px;
     width: 60%;
+    height: 100%;
     margin-top: 0px;
     margin-right: 30px;
 }
 
-.work-experience-header {
+.education-top-header {
     color: orange;
     font-size: 56px;
     justify-content: center;
     padding: 10px;
+    margin-top: 10px;
 }
 
 .education-box {
-    padding: 25px;
+    padding: 15px;
     border-radius: 10px;
     width: 95%;
     height: 10%;
@@ -65,17 +64,20 @@
     column-gap: 30px;
 }
 
-.experience-box-header {
-    margin-bottom: 10px;
-}
-
 .experience-box-header-title {
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .education-box,
+.experience-box-header-title,
 .h4 {
-    font-size: 24px;
+    font-size: 20px;
+}
+
+.education-box-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
 }
 
 .experience-box-header-title {
