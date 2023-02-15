@@ -18,17 +18,6 @@
     max-width: 1500px;
 }
 
-.navbar-logo {
-    color: #fff;
-    justify-self: start;
-    margin-left: 20px;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 2rem;
-    display: flex;
-    align-items: center;
-}
-
 .fa-typo3 {
     margin-left: 0.5rem;
     font-size: 1.8rem;
@@ -128,25 +117,6 @@ a:link {
         color: #242424;
         border-radius: 0;
     }
-    .navbar-logo {
-        position: absolute;
-        top: 0;
-        left: 0;
-        transform: translate(25%, 50%);
-    }
-    .menu-icon {
-        display: block;
-        position: absolute;
-        top: 0;
-        right: 0;
-        transform: translate(-100%, 60%);
-        font-size: 1.8rem;
-        cursor: pointer;
-    }
-    .fa-times {
-        color: #fff;
-        font-size: 2rem;
-    }
     .nav-links-mobile {
         display: block;
         text-align: center;
@@ -165,5 +135,11 @@ a:link {
         background: #fff;
         color: #242424;
         transition: 250ms;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        font-size: 20px;
     }
 }

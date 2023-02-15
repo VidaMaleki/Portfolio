@@ -17,7 +17,7 @@ function Projects() {
         <div class="ex-first-card" >
           <h2>All-in-One-Calculator</h2>
             <p>Technologies: React, JavaScript, CSS, HTML, git, and react Routs</p><br></br>
-          <fast-button class="button-1" onclick="window.location.href='https://github.com/VidaMaleki/All-in-one-calculator';" target="blank_">GitHub</fast-button>
+          <fast-button class="button-1" onclick="window.location.href='https://vidamaleki.github.io/All-in-one-calculator/';" target="blank_">Demo</fast-button>
         </div>
       </fast-card>
       <fast-card class="first-card" >
@@ -25,7 +25,7 @@ function Projects() {
         <div class="ex-first-card" >
             <h2>Portfolio</h2>
             <p>Technologies: React, JavaScript, Fast web compenents, CSS, and HTML</p><br></br>
-            <fast-button class="button-1" onclick="window.location.href='https://github.com/VidaMaleki/portfolio';">GitHub</fast-button>
+            <fast-button class="button-1" onclick="window.location.href='https://vidamaleki.github.io/portfolio/';">Demo</fast-button>
         </div>
       </fast-card>
       <fast-card class="first-card" >

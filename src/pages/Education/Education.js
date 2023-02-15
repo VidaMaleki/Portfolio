@@ -23,11 +23,11 @@ const Education = () => {
         <h2 class="education-top-header">Licenses & certifications</h2>
 
         <div class="education-box">
-          <div class="education-box-header"><div class="experience-box-header-title"><FaIcons.FaPython/><h3>Python 3 Certificate</h3></div><h4>Issued 06/2021</h4></div>
+          <div class="education-box-header"><div class="education-box-header-title"><FaIcons.FaPython/><h3>Python 3 Certificate</h3></div><h4>Issued 06/2021</h4></div>
           <h4>Codecademy</h4>
         </div>
         <div class="education-box">
-          <div class="education-box-header"><div class="experience-box-header-title"><SiIcons.SiJavascript/><h3>JavaScript Certificate</h3></div><h4>Issued 09/2021</h4></div>
+          <div class="education-box-header"><div class="education-box-header-title"><SiIcons.SiJavascript/><h3>JavaScript Certificate</h3></div><h4>Issued 09/2021</h4></div>
           <h4>Codeacademy</h4>
         </div>
         <h2 class="education-top-header">Skils</h2>

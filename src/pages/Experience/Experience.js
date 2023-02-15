@@ -57,7 +57,6 @@ function Experience() {
             <li>Successfully referred key@work presentations, financial Advisor appointments, Mortgage referrals and key private bank prospects</li>
             <li>Trained 3 new employees and coached them for customer service and sales skills</li>
           </ul>
-          
         </div>
         <div class="experience-box">
           <div class="experience-box-header"><h3>Zarrin Naghsh</h3><h4>09/2018 - 12/2019</h4></div>

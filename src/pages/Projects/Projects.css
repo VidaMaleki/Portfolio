@@ -1,25 +1,39 @@
 .projects-container {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 96vh;
+    background-image: url('../../image/home1.jpg');
+    background-color: #121010;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    z-index: -1;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('../../image/home1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
     padding: 30px;
-    max-width: 100%;
-    min-height: 96vh;
 }
 
 .projects-wrapper {
-    width: 80%;
-    height: 100%;
-    padding: 10px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    position: relative;
+    overflow: auto;
+    z-index: 1;
     row-gap: 50px;
     column-gap: 6%;
+    width: 80%;
+    height: 96vh;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.projects-wrapper::-webkit-scrollbar {
+    display: none;
 }
 
 .first-card {
@@ -57,4 +71,70 @@
 
 .button-1 {
     color: white;
+}
+
+
+/* Styles for screens larger than 768px */
+
+@media screen and (min-width: 500px) {
+    .ex-first-card>h2 {
+        font-size: 18px;
+    }
+    .ex-first-card>p {
+        font-size: 16px;
+    }
+    .first-card {
+        height: 300px;
+        min-width: 200px;
+        max-width: 300px;
+    }
+    .first-card-img {
+        height: 130px;
+        min-width: 200px;
+        max-width: 300px;
+    }
+}
+
+
+/* Styles for screens larger than 992px */
+
+@media screen and (min-width: 992px) {
+    .ex-first-card>h2 {
+        font-size: 20px;
+    }
+    .ex-first-card>p {
+        font-size: 18px;
+    }
+    .first-card {
+        height: 300px;
+        min-width: 250px;
+        max-width: 350px;
+    }
+    .first-card-img {
+        height: 130px;
+        min-width: 250px;
+        max-width: 350px;
+    }
+}
+
+
+/* Styles for screens larger than 1200px */
+
+@media screen and (min-width: 1200px) {
+    .ex-first-card>h2 {
+        font-size: 28px;
+    }
+    .ex-first-card>p {
+        font-size: 20px;
+    }
+    .first-card {
+        height: 320px;
+        min-width: 300px;
+        max-width: 400px;
+    }
+    .first-card-img {
+        height: 150px;
+        min-width: 300px;
+        max-width: 400px;
+    }
 }
