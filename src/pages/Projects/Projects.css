@@ -26,8 +26,8 @@
     row-gap: 50px;
     column-gap: 6%;
     width: 80%;
-    height: 96vh;
-    padding: 10px;
+    height: 90vh;
+    padding: 30px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -40,15 +40,13 @@
     display: flex;
     flex-direction: column;
     background-color: #2e2d2d;
-    height: 320px;
-    min-width: 300px;
-    max-width: 400px;
+    height: 300px;
+    width: 300px;
 }
 
 .first-card-img {
     height: 150px;
-    min-width: 300px;
-    max-width: 400px;
+    width: 300px;
 }
 
 .ex-first-card {
@@ -57,12 +55,12 @@
 
 .ex-first-card>h2 {
     color: rgb(228, 169, 17);
-    font-size: 28px;
+    font-size: 24px;
 }
 
 .ex-first-card>p {
     color: white;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .list-1 {
@@ -83,16 +81,6 @@
     .ex-first-card>p {
         font-size: 16px;
     }
-    .first-card {
-        height: 300px;
-        min-width: 200px;
-        max-width: 300px;
-    }
-    .first-card-img {
-        height: 130px;
-        min-width: 200px;
-        max-width: 300px;
-    }
 }
 
 
@@ -103,17 +91,7 @@
         font-size: 20px;
     }
     .ex-first-card>p {
-        font-size: 18px;
-    }
-    .first-card {
-        height: 300px;
-        min-width: 250px;
-        max-width: 350px;
-    }
-    .first-card-img {
-        height: 130px;
-        min-width: 250px;
-        max-width: 350px;
+        font-size: 16px;
     }
 }
 
@@ -122,19 +100,9 @@
 
 @media screen and (min-width: 1200px) {
     .ex-first-card>h2 {
-        font-size: 28px;
+        font-size: 22px;
     }
     .ex-first-card>p {
-        font-size: 20px;
-    }
-    .first-card {
-        height: 320px;
-        min-width: 300px;
-        max-width: 400px;
-    }
-    .first-card-img {
-        height: 150px;
-        min-width: 300px;
-        max-width: 400px;
+        font-size: 16px;
     }
 }
