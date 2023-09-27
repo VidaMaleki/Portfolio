@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.c205ec3e.css",
-    "main.js": "/portfolio/static/js/main.d91eb222.js",
+    "main.js": "/portfolio/static/js/main.2af64d28.js",
     "static/media/AdiesCapstoneHub.png": "/portfolio/static/media/AdiesCapstoneHub.426b2887f3e395012973.png",
     "static/media/home1.jpg": "/portfolio/static/media/home1.a6e049193323b52998de.jpg",
     "static/media/home11.jpg": "/portfolio/static/media/home11.7750534313d4e71675a7.jpg",
     "static/media/Screen Shot 2022-05-20 at 1.32.36 PM.png": "/portfolio/static/media/Screen Shot 2022-05-20 at 1.32.36 PM.ba8e82277c308bae97bb.png",
     "index.html": "/portfolio/index.html",
     "main.c205ec3e.css.map": "/portfolio/static/css/main.c205ec3e.css.map",
-    "main.d91eb222.js.map": "/portfolio/static/js/main.d91eb222.js.map"
+    "main.2af64d28.js.map": "/portfolio/static/js/main.2af64d28.js.map"
   },
   "entrypoints": [
     "static/css/main.c205ec3e.css",
-    "static/js/main.d91eb222.js"
+    "static/js/main.2af64d28.js"
   ]
 }
