@@ -71,6 +71,34 @@
     color: white;
 }
 
+@media screen and (max-width: 500px) {
+    .first-card {
+        display: flex;
+        flex-direction: column;
+        background-color: #2e2d2d;
+    }
+    .first-card-img {
+        height: 100px;
+        width: 200px;
+    }
+    .ex-first-card {
+        padding: 10px 10px 10px;
+    }
+    .list-1 {
+        margin-left: 15px;
+    }
+    .button-1 {
+        color: white;
+        margin-bottom: 5px;
+    }
+    .ex-first-card>h2 {
+        font-size: 18px;
+    }
+    .ex-first-card>p {
+        font-size: 16px;
+    }
+}
+
 
 /* Styles for screens larger than 768px */
 
