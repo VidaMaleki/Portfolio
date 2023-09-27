@@ -65,7 +65,7 @@ function Navbar() {
           </ul>
           {button }
           <div className='btn-resume'>
-          <a href="https://www.docdroid.net/Hvk3STR/portfolio-docdocx-pdf" >RESUME</a>
+          <a href="https://docdro.id/F5vvA30" >RESUME</a>
           </div>
         </div>
       </nav>

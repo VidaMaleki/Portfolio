@@ -22,12 +22,24 @@ function Experience() {
         <h2 class="work-experience-header">Work Experience</h2>
         <div class="experience-box">
           <div class="experience-box-header">
+            <div class="experience-box-header-title"><FaIcons.FaMicrosoft/><h3>RentBase</h3></div><h4>07/2022 - 09/2023</h4></div>
+          <h4>Full-stack Software Engineer</h4>
+          <ul class="experience-box-list">
+            <li>Conducted comprehensive testing and automation with Jest and Cypress.</li>
+            <li>Designed MongoDB schemas and created efficient API services.</li>
+            <li>Streamlined codebase with over 72 file refactorings and introduced currency & date formatting.</li>
+            <li>Improved UI efficiency by transitioning to Tailwind CSS.</li>
+            <li>Tech stack: Node.js, Nest.js, TypeScript, JavaScript, Sass,  Redux, MongoDB</li>
+          </ul>
+        </div>
+        <div class="experience-box">
+          <div class="experience-box-header">
             <div class="experience-box-header-title"><FaIcons.FaMicrosoft/><h3>Microsoft</h3></div><h4>08/2022 - 01/2023</h4></div>
           <h4>Software Engineer</h4>
           <ul class="experience-box-list">
             <li>Sole developer of the Office in Sidebar project that reached 172k DAU.</li>
             <li>Experienced at creating reusable webcomponents</li>
-            <li>Technologies: Webpack, Fast and Fluent UI elements, TypeScript, CSS, HTML, Figma, and C++</li>
+            <li>Tech stack: Webpack, Fast and Fluent UI elements, TypeScript, CSS, HTML, Figma, and C++</li>
           </ul>
         </div>
         <div class="experience-box">
@@ -35,7 +47,7 @@ function Experience() {
           <h4>Software Engineer</h4>
           <ul class="experience-box-list">
             <li>Worked on multiple projects using JavaScript, CSS, HTML, React, Python, Flask, SQL</li>
-            <li>Technologies: JavaScript, CSS, HTML, React, Python, Flask, SQL , REST API</li>
+            <li>Tech stack: JavaScript, CSS, HTML, React, Python, Flask, SQL , REST API</li>
             <li>FrameWorks: Flask and React</li>
           </ul>
         </div>
