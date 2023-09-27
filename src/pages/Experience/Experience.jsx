@@ -7,7 +7,7 @@ import {
   provideFASTDesignSystem 
 } from "@microsoft/fast-components";
 import {provideFluentDesignSystem , fluentCard} from '@fluentui/web-components';
-
+import RB from "../../image/RB.png"
 
 provideFASTDesignSystem().register(allComponents);
 provideFluentDesignSystem().register(fluentCard);
@@ -22,7 +22,7 @@ function Experience() {
         <h2 class="work-experience-header">Work Experience</h2>
         <div class="experience-box">
           <div class="experience-box-header">
-            <div class="experience-box-header-title"><FaIcons.FaMicrosoft/><h3>RentBase</h3></div><h4>07/2022 - 09/2023</h4></div>
+            <div class="experience-box-header-title"><img alt="" src={RB} width="31px" height="31px"/><h3>RentBase</h3></div><h4>07/2023 - 09/2023</h4></div>
           <h4>Full-stack Software Engineer</h4>
           <ul class="experience-box-list">
             <li>Conducted comprehensive testing and automation with Jest and Cypress.</li>
